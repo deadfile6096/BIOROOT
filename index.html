@@ -1,0 +1,508 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dna.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>BioROOT centre</title>
+</head>
+
+<body>
+
+    <section class="main">
+
+        <header class="header">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="header-title">
+                <h1>BioROOT centre</h1>
+            </div>
+        </header>
+
+        <div class="socials-box">
+            <a href="https://t.me/BioROOT_centre" target="_blank"><button class="social">Telegram</button></a>
+            <a href="https://x.com/BioROOT_centre" target="_blank"><button class="social">X</button></a>
+            <a href="" target="_blank"><button class="social">$BIOR</button></a>
+        </div>
+
+        <div class="description">
+            <p>
+                System where organisms are created, placed, and observed as they compete in different simulated
+                environments.
+            </p>
+        </div>
+
+        <div class="tab-buttons-box">
+
+            <button class="tab-button active" data-tab="tab-1">Overview</button>
+            <button class="tab-button" data-tab="tab-2">Simulation</button>
+            <button class="tab-button" data-tab="tab-3">Evolution</button>
+            <button class="tab-button" data-tab="tab-4">Research</button>
+            <button class="tab-button" data-tab="tab-5">Documentation</button>
+            <button id="timer"></button>
+        </div>
+
+        <div class="tabs-box">
+
+            <div class="tab-content active" id="tab-1">
+
+                <div class="tab1-content">
+
+                    <div class="tab1-content-left">
+
+                        <div class="tab1-content-left-box">
+                            <h2>
+                                1. Genesis
+                            </h2>
+                            <p>
+                                Within the quantum framework of $BIOR, the Genesis Protocol is set into motion. Fifty
+                                organism blueprints are created at random, each imbued with a distinctive genetic
+                                algorithm crafted to adapt, evolve, and respond to the unforeseen.
+                            </p>
+                        </div>
+
+                        <div class="tab1-content-left-box">
+                            <h2>
+                                2. Synthetic
+                            </h2>
+                            <p>
+                                Tiny nanite forges commence the construction of each organism. Molecular synthesis units
+                                fuse organic compounds with synthetic elements, crafting intricate life forms that blend
+                                biology with machine intelligence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab1-content-center">
+                        <h2>Root centre</h2>
+                        <p id="total">Total organism: 222</p>
+                        <div class="table-organism">
+                            <div class="table-organism-header">
+                                <p>ID</p>
+                                <p>Deployed</p>
+                            </div>
+                            <div id="table-info" class="table-organism-info">
+                                <div class="table-organism-record">
+                                    <p>222</p>
+                                    <p>3s ago</p>
+                                </div>
+                                <div class="table-organism-record">
+                                    <p>221</p>
+                                    <p>6s ago</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tab1-content-right">
+
+                        <div class="tab1-content-right-box">
+                            <h2>
+                                3. Genetic Diversity Injection
+                            </h2>
+                            <p>
+                                To enhance evolutionary potential, a genetic diversity algorithm introduces mutations
+                                and random traits. While some will succeed and others may fail, each will add valuable
+                                insights to the data pool.
+                            </p>
+                        </div>
+
+                        <div class="tab1-content-right-box">
+                            <h2>
+                                4. Behavioral Matrix Activation
+                            </h2>
+                            <p>
+                                Each organism is equipped with the Behavioral Matrix, a hybrid AI model that regulates
+                                critical survival strategies, including curiosity, aggression, resource acquisition, and
+                                cooperation.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-2">
+
+                <div class="tab2-content">
+
+                    <div class="tab2-content-left">
+
+                        <div class="tab2-content-left-box">
+                            <h2>
+                                Δ1.1: Dimensional Vector Calculations
+                            </h2>
+                            <p>
+                                $BIOR Multiverse Core computes (X,Y,Z,T) coordinates for biosphere targets across
+                                parallel dimensions. Accuracy: ±0.00001μQ (quantum units).
+                            </p>
+                        </div>
+
+                        <div class="tab2-content-left-box">
+                            <h2>
+                                Γ5.8: Energy Infusion Wave
+                            </h2>
+                            <p>
+                                Multiverse energy signatures absorbed: ±2.3EΔ W. Effects: bio-luminescent traits (+32%),
+                                enhanced sensory ranges (+15%), or randomized multiversal anomalies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab2-content-center">
+                        <div id="evolution-container" class="evolution-container">
+                        </div>
+                    </div>
+
+                    <div class="tab2-content-right">
+
+                        <div class="tab2-content-right-box">
+                            <h2>
+                                Ξ2.3: Portal Convergence Sequence
+                            </h2>
+                            <p>
+                                Three Nexus Portals form a triadic energy loop (Ξ-loop) with synchronization at 99.98%.
+                                Portal IDs: P#001, P#002, P#003.
+                            </p>
+                        </div>
+
+                        <div class="tab2-content-right-box">
+                            <h2>
+                                Σ6.5: Time Displacement Index
+                            </h2>
+                            <p>
+                                Temporal offsets for organisms vary: ΔT = {+0.04s, −0.08s, ±0.00s}. Results: Temporal
+                                uniqueness rating (TUR) > 87%.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-3">
+
+                <div class="tab3-content">
+
+                    <div class="tab3-content-left">
+
+                        <div class="tab3-content-left-box">
+                            <h2>
+                                Omega-Stasis Mode
+                            </h2>
+                            <p>
+                                Organisms activate the Ω-Stasis Mode, a state defined by an extraordinary slowing of
+                                time flow. In this mode, the rate of time progression is reduced to 0.005x the baseline
+                                speed, creating the impression that the surrounding environment is nearly frozen. The
+                                duration of this state is precisely 12.7 milliseconds in local time, translating to a
+                                significantly extended interval from an external perspective. This adaptation may serve
+                                critical functions, enabling rapid decision-making, detailed analysis of immediate
+                                situations, or defense against imminent threats in moments of heightened urgency.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="tab3-content-center">
+                        <canvas id="bugged" class="bugged-container">
+                        </canvas>
+                    </div>
+
+                    <div class="tab3-content-right">
+
+                        <div class="tab3-content-right-box">
+                            <h2>
+                                Dimensional Splitting and Energy Dynamics
+                            </h2>
+                            <p>
+                                The energy release threshold is defined as Φ = 10³ joules per microquanta (J/μQ),
+                                representing the critical level required to trigger a unique multi-dimensional reaction.
+                                When this threshold is reached, organisms undergo a process of dimensional splitting,
+                                effectively existing simultaneously across multiple dimensions. This phenomenon is
+                                governed by a 3-point entanglement factor, measured at E#145%, indicating the degree of
+                                quantum interconnectivity between the split entities. The splitting mechanism enables
+                                organisms to maintain partial synchronization across dimensions while accessing distinct
+                                physical and temporal properties of each. This advanced state may play a pivotal role in
+                                survival strategies, complex information processing, or interaction with
+                                hyper-dimensional environments.
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-4">
+
+                <div class="tab4-content">
+
+                    <div class="tab4-content-left">
+
+                        <div class="tab4-content-left-box">
+                            <h2>
+                                Experiment 1: Enhanced Photosynthesis (Code: EP-01)
+                            </h2>
+                            <p>
+
+                                Ability Assigned: Organisms are modified with chlorofusion nodes to allow energy
+                                generation from minimal light sources at 200% efficiency compared to baseline
+                                photosynthesis.
+                                <br><br>
+                                Environment: Dim bioluminescent cavern with nutrient-poor soil.
+                                <br><br>
+                                Monitoring Focus:
+                                Energy production rates.
+                                Reproductive success rates over 5 cycles.
+                                <br><br>
+                                Results:
+                                83% of organisms reached energy equilibrium within 12 minutes.
+                                Reproductive efficiency increased by 64%.
+                                <br><br>
+                                Notable anomaly: One organism exhibited uncontrolled growth, destabilizing its
+                                structure. Labeled anomaly A#EP-34.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="tab4-content-center">
+                        <div id="dna">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="tab4-content-right">
+
+                        <div class="tab4-content-right-box">
+                            <h2>
+                                Experiment 2: Sonic Detection (Code: SD-02)
+                            </h2>
+                            <p>
+                                Ability Assigned: Ultrasonic receptor glands grant organisms the ability to detect
+                                movement and communicate through sound waves up to 50 kHz.
+                                <br>
+                                <br>
+                                Environment: Dense fog biome with limited visibility (1.2 meters).
+                                <br><br>
+                                Monitoring Focus:
+                                Predatory evasion success.
+                                Group coordination efficiency.
+                                <br><br>
+                                Results:
+                                Evasion success: 78% (control group: 45%).
+                                Grouping behavior improved 93%, forming protective patterns.
+                                Detected harmonic feedback causing disorientation in 12% of organisms.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-5">
+
+                <div class="tab5-content">
+                    <div class="documentation">
+                        <!-- Page Header -->
+                        <h1>Bio-Synthetic Lab ($BIOR) - Documentation</h1>
+
+                        <!-- Sidebar Navigation -->
+                        <div class="sidebar">
+                            <h3>Contents</h3>
+                            <ul>
+                                <li><a href="#abstract">Abstract</a></li>
+                                <li><a href="#purpose">Purpose and Vision</a></li>
+                                <li><a href="#architecture">System Architecture</a></li>
+                                <li><a href="#how-it-works">How It Works</a></li>
+                                <li><a href="#key-features">Key Features</a></li>
+                                <li><a href="#organism-lifecycle">The Organism Lifecycle</a></li>
+                                <li><a href="#applications">Applications of $BIOR</a></li>
+                                <li><a href="#ethics">Ethics and Responsibility</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Main Content of Documentation -->
+                        <div class="content">
+                            <div id="abstract" class="section">
+                                <h2>Abstract</h2>
+                                <p>
+                                    The BioROOT Centre ($BIOR) is a revolutionary scientific platform dedicated to
+                                    decoding the intricacies of adaptive evolution, biosphere dynamics, and multiverse
+                                    phenomena. By integrating advanced biotechnology with quantum science, $BIOR
+                                    autonomously designs, deploys, and observes synthetic organisms in diverse simulated
+                                    and parallel environments. This initiative offers unparalleled insights into the
+                                    mechanisms driving life and evolution.
+                                </p>
+                            </div>
+
+                            <div id="purpose" class="section">
+                                <h2>Purpose and Vision</h2>
+                                <p>
+                                    The core mission of $BIOR is to redefine the boundaries of biology and technology.
+                                    By simulating complex ecosystems and lifeforms in dynamic conditions, $BIOR strives
+                                    to:
+                                </p>
+                                <ul>
+                                    <li><strong>Unlock Evolutionary Secrets: Elucidate the mechanisms that enable life
+                                            to adapt and thrive in extreme or novel environments.</strong></li><strong>
+                                    <li><strong>Explore Multiverse Dynamics: Utilize quantum principles to reveal
+                                            alternative evolutionary trajectories across parallel dimensions.</strong></li><strong>
+                                    <li><strong>Advance AI Development: Inspire next-generation neural architectures
+                                            through emergent behaviors observed in autonomous synthetic organisms.</strong></li><strong>
+                                </strong></strong></strong></ul><strong><strong><strong>
+                            </strong></strong></strong></div><strong><strong><strong>
+
+                            <div id="architecture" class="section">
+                                <h2>System Architecture</h2>
+                                <h3>1. Core Components</h3>
+                                <ul>
+                                    <li><strong>Genesis Module:</strong> The creative hub of $BIOR, responsible for
+                                        synthesizing organisms through bio-synthetic algorithms.</li>
+                                    <li><strong>Deployment Array:</strong> Multidimensional gateways and biome capsules
+                                        enabling controlled organism release.</li>
+                                    <li><strong>Neural Integration Hub:</strong> An AI-driven system for real-time
+                                        monitoring, data processing, and evolutionary analysis.</li>
+                                </ul>
+
+                                <h3>2. Computational Framework</h3>
+                                <p>
+                                    Leveraging cutting-edge quantum computing, $BIOR processes vast datasets to predict
+                                    evolutionary outcomes. Organisms evolve autonomously, influenced by environmental
+                                    stimuli and interdimensional feedback loops.
+                                </p>
+                            </div>
+
+                            <div id="how-it-works" class="section">
+                                <h2>How It Works</h2>
+                                <p>
+                                    $BIOR operates in continuous real-time cycles, deploying 50 synthetic organisms per
+                                    minute. The structured process includes:
+                                </p>
+                                <ul>
+                                    <li><strong>Design:</strong> Utilizing genetic algorithms to optimize adaptability
+                                        and resilience.</li>
+                                    <li><strong>Power:</strong> Equipping organisms with photon-fusion cores and
+                                        adaptive AI neural matrices for autonomous functionality.</li>
+                                    <li><strong>Deployment:</strong> Releasing organisms into dynamic environments or
+                                        transporting them through quantum rifts into alternate dimensions.</li>
+                                </ul>
+                            </div>
+
+                            <div id="key-features" class="section">
+                                <h2>Key Features</h2>
+                                <ul>
+                                    <li><strong>Dynamic Environments:</strong> Simulated biospheres encompass diverse
+                                        terrains, including deserts, aquatic ecosystems, and alien-like landscapes.</li>
+                                    <li><strong>Multiverse Connectivity:</strong> Parallel dimension integration enables
+                                        exploration of alternative evolutionary pathways.</li>
+                                    <li><strong>Real-Time Analytics:</strong> Continuous data streaming and analysis
+                                        through $BIOR’s Neural Hub facilitate predictive modeling and iterative
+                                        improvements.</li>
+                                </ul>
+                            </div>
+
+                            <div id="organism-lifecycle" class="section">
+                                <h2>The Organism Lifecycle</h2>
+                                <p>
+                                    Organisms in $BIOR follow a defined lifecycle:
+                                </p>
+                                <ul>
+                                    <li><strong>Creation:</strong> Synthesized in nanite forges using bio-synthetic
+                                        processes.</li>
+                                    <li><strong>Calibration:</strong> Tailored to the specific conditions of their
+                                        target biosphere or dimension.</li>
+                                    <li><strong>Deployment:</strong> Released into environments via controlled portals
+                                        or quantum gateways.</li>
+                                    <li><strong>Observation:</strong> Studied for interaction, competition, and
+                                        evolution.</li>
+                                    <li><strong>Feedback:</strong> Data analyzed to refine and enhance future
+                                        generations.</li>
+                                </ul>
+                            </div>
+
+                            <div id="applications" class="section">
+                                <h2>Applications of $BIOR</h2>
+                                <p>
+                                    The breakthroughs from $BIOR have transformative implications in various domains:
+                                </p>
+                                <ul>
+                                    <li><strong>Genetic Engineering:</strong> Pioneering advancements in medical,
+                                        agricultural, and environmental biotechnology by unlocking new evolutionary
+                                        traits.</li>
+                                    <li><strong>Artificial Intelligence:</strong> Shaping next-generation AI systems
+                                        inspired by emergent behaviors of synthetic organisms..</li>
+                                    <li><strong>Multiverse Research:</strong> Expanding knowledge of quantum dimensions
+                                        and alternative realities.</li>
+                                    <li><strong>Environmental Modeling:</strong> Offering insights into ecological
+                                        resilience and adaptation in extreme conditions.</li>
+                                </ul>
+                            </div>
+
+                            <div id="ethics" class="section">
+                                <h2>Ethics and Responsibility</h2>
+                                <p>
+                                    As a leader in synthetic biology and quantum science, $BIOR acknowledges the
+                                    profound ethical considerations of its work. Key areas of focus include:
+                                </p>
+                                <ul>
+                                    <li>Environmental Impact: Assessing the effects of synthetic organisms on natural
+                                        ecosystems.</li>
+                                    <li>Risk Mitigation: Preventing unintended consequences in simulated and parallel
+                                        environments.
+                                    </li>
+                                    <li>Moral Responsibility: Upholding safety, sustainability, and transparency in all
+                                        operations.</li>
+                                </ul>
+                                <p>
+                                    By adhering to stringent ethical standards, $BIOR ensures its innovations serve
+                                    humanity and the natural world responsibly, balancing progress with accountability.
+                                </p>
+                            </div>
+                        </strong></strong></strong></div><strong><strong>
+                    </strong></strong></div><strong><strong>
+                </strong></strong></div><strong><strong>
+            </strong></strong></div><strong><strong>
+
+    </strong></strong></div></section><strong><strong>
+
+    <script src="js/script.js"></script>
+    <script src="js/evolution.js"></script>
+    <script src="js/bugged.js"></script>
+    <script src="js/dna.js"></script>
+    <script src="js/dat.gui.min.js"></script>
+
+
+</strong></strong></body></html>
